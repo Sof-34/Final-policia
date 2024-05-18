@@ -1,0 +1,1 @@
+docker run --name=mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=true -d -v D:\Desktop\Seguimientonodejs\datos:/var/lib/mysql -p 3306:3306 mysql:5.7
